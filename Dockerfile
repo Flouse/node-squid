@@ -35,5 +35,5 @@ ENV PORT 3128
 
 USER node
 
-EXPOSE 3000
-CMD ["npm", "start"]
+EXPOSE 3128
+CMD ["yarn", "debug"]
